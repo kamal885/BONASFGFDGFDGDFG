@@ -21,3 +21,6 @@ client.on('message', message =>{
     voiceChannel.join();
     message.channel.send("تم الأتصال بالروم الصوتي")
 }})
+
+
+client.login(process.env.BOT_TOKEN);
